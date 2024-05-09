@@ -1,16 +1,32 @@
 # A1_24-1-08-05_Prova
 
-Cadastro de Jogadores
-Este é um aplicativo simples de cadastro de jogadores, onde os usuários podem inserir o nome e o número da camisa de um jogador e salvar as informações em um arquivo XML.
+# Cadastro de Jogadores
 
-Como usar
-Abra o arquivo index.html em um navegador da web.
-Preencha o formulário com o nome e o número da camisa do jogador.
-Clique no botão "Salvar" para registrar o jogador.
-Após clicar em "Salvar", um alerta será exibido indicando que o jogador foi registrado com sucesso. Os campos do formulário serão limpos para permitir o registro de um novo jogador.
-Você pode clicar em "Salvar" quantas vezes desejar para registrar mais jogadores.
-Quando terminar de registrar os jogadores, clique no botão "Baixar lista" para baixar um arquivo XML contendo todas as informações dos jogadores registrados.
-Arquivos
-index.html: Contém o código HTML do formulário de cadastro de jogadores.
-script.js: Contém o código JavaScript que manipula o formulário e salva os dados dos jogadores em um arquivo XML.
-styles.css: Contém o código CSS para estilizar o formulário.
+## (Primeira versão)
+
+Este é um aplicativo simples para cadastrar jogadores em um arquivo XML.
+
+## Funcionalidades
+
+- **Cadastro de Jogadores:** Permite adicionar o nome e o número da camisa de um jogador.
+- **Download da Lista:** Baixa um arquivo XML contendo a lista de jogadores cadastrados.
+
+## Como Usar
+
+1. Abra o arquivo `index.html` em seu navegador.
+2. Preencha o formulário com o nome e o número da camisa do jogador.
+3. Clique no botão "Salvar" para cadastrar o jogador.
+4. Para baixar a lista de jogadores, clique no botão "Baixar lista".
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Estrutura de Arquivos
+
+- `index.html`: Página principal com o formulário de cadastro.
+- `script.js`: Script JavaScript responsável por controlar as ações do formulário.
+- `styles.css`: Arquivo CSS para estilizar a página.
+- `Jogadores.xml`: Arquivo XML que armazena os dados dos jogadores cadastrados.
